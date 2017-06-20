@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0891DD1EF8010D00FD63F2 /* demo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E0891DC1EF8010D00FD63F2 /* demo.m4a */; };
+		2E621A271EF8ED9700709BFF /* congratulations-you-won.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E621A261EF8ED9700709BFF /* congratulations-you-won.mp3 */; };
+		2E6B8EA81EF7B92700A65C08 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B8EA71EF7B92700A65C08 /* GridLayout.swift */; };
+		2E70B5701EF2A2BD001FA6FD /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70B56E1EF2A2BD001FA6FD /* About.swift */; };
+		2E70B5711EF2A2BD001FA6FD /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E70B56F1EF2A2BD001FA6FD /* About.xib */; };
+		2E70B5761EF2E745001FA6FD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70B5741EF2E745001FA6FD /* Settings.swift */; };
+		2E70B5771EF2E745001FA6FD /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E70B5751EF2E745001FA6FD /* Settings.xib */; };
 		2EAE4BE11EF1323000694CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4BE01EF1323000694CCC /* AppDelegate.swift */; };
 		2EAE4BE31EF1323000694CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4BE21EF1323000694CCC /* ViewController.swift */; };
 		2EAE4BE61EF1323000694CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE4BE41EF1323000694CCC /* Main.storyboard */; };
@@ -14,6 +21,12 @@
 		2EAE4BEB1EF1323000694CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE4BE91EF1323000694CCC /* LaunchScreen.storyboard */; };
 		2EAE4BF61EF1323000694CCC /* CubeKelltonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4BF51EF1323000694CCC /* CubeKelltonTests.swift */; };
 		2EAE4C011EF1323000694CCC /* CubeKelltonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4C001EF1323000694CCC /* CubeKelltonUITests.swift */; };
+		2EAE4C101EF1328400694CCC /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4C0E1EF1328400694CCC /* HomePage.swift */; };
+		2EAE4C111EF1328400694CCC /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE4C0F1EF1328400694CCC /* HomePage.xib */; };
+		2EAE4C161EF1434100694CCC /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4C141EF1434100694CCC /* SecondScreen.swift */; };
+		2EAE4C171EF1434100694CCC /* SecondScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE4C151EF1434100694CCC /* SecondScreen.xib */; };
+		2EAE4C1A1EF1482500694CCC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE4C181EF1482500694CCC /* Cell.swift */; };
+		2EAE4C1B1EF1482500694CCC /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE4C191EF1482500694CCC /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0891DC1EF8010D00FD63F2 /* demo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4a; sourceTree = "<group>"; };
+		2E621A261EF8ED9700709BFF /* congratulations-you-won.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "congratulations-you-won.mp3"; sourceTree = "<group>"; };
+		2E6B8EA71EF7B92700A65C08 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridLayout.swift; path = ../GridLayout.swift; sourceTree = "<group>"; };
+		2E70B56E1EF2A2BD001FA6FD /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = About.swift; path = ../About.swift; sourceTree = "<group>"; };
+		2E70B56F1EF2A2BD001FA6FD /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = About.xib; path = ../About.xib; sourceTree = "<group>"; };
+		2E70B5741EF2E745001FA6FD /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2E70B5751EF2E745001FA6FD /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 		2EAE4BDD1EF1323000694CCC /* CubeKellton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeKellton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAE4BE01EF1323000694CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAE4BE21EF1323000694CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,12 @@
 		2EAE4BFC1EF1323000694CCC /* CubeKelltonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeKelltonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAE4C001EF1323000694CCC /* CubeKelltonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeKelltonUITests.swift; sourceTree = "<group>"; };
 		2EAE4C021EF1323000694CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAE4C0E1EF1328400694CCC /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePage.swift; path = ../HomePage.swift; sourceTree = "<group>"; };
+		2EAE4C0F1EF1328400694CCC /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomePage.xib; path = ../HomePage.xib; sourceTree = "<group>"; };
+		2EAE4C141EF1434100694CCC /* SecondScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		2EAE4C151EF1434100694CCC /* SecondScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondScreen.xib; sourceTree = "<group>"; };
+		2EAE4C181EF1482500694CCC /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2EAE4C191EF1482500694CCC /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,19 @@
 		2EAE4BDF1EF1323000694CCC /* CubeKellton */ = {
 			isa = PBXGroup;
 			children = (
+				2E0891DC1EF8010D00FD63F2 /* demo.m4a */,
+				2E621A261EF8ED9700709BFF /* congratulations-you-won.mp3 */,
+				2E6B8EA71EF7B92700A65C08 /* GridLayout.swift */,
+				2EAE4C0E1EF1328400694CCC /* HomePage.swift */,
+				2EAE4C0F1EF1328400694CCC /* HomePage.xib */,
+				2EAE4C141EF1434100694CCC /* SecondScreen.swift */,
+				2EAE4C151EF1434100694CCC /* SecondScreen.xib */,
+				2E70B5741EF2E745001FA6FD /* Settings.swift */,
+				2E70B5751EF2E745001FA6FD /* Settings.xib */,
+				2EAE4C181EF1482500694CCC /* Cell.swift */,
+				2EAE4C191EF1482500694CCC /* Cell.xib */,
+				2E70B56E1EF2A2BD001FA6FD /* About.swift */,
+				2E70B56F1EF2A2BD001FA6FD /* About.xib */,
 				2EAE4BE01EF1323000694CCC /* AppDelegate.swift */,
 				2EAE4BE21EF1323000694CCC /* ViewController.swift */,
 				2EAE4BE41EF1323000694CCC /* Main.storyboard */,
@@ -232,9 +271,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E70B5771EF2E745001FA6FD /* Settings.xib in Resources */,
+				2E621A271EF8ED9700709BFF /* congratulations-you-won.mp3 in Resources */,
+				2E0891DD1EF8010D00FD63F2 /* demo.m4a in Resources */,
+				2EAE4C171EF1434100694CCC /* SecondScreen.xib in Resources */,
+				2EAE4C1B1EF1482500694CCC /* Cell.xib in Resources */,
 				2EAE4BEB1EF1323000694CCC /* LaunchScreen.storyboard in Resources */,
 				2EAE4BE81EF1323000694CCC /* Assets.xcassets in Resources */,
 				2EAE4BE61EF1323000694CCC /* Main.storyboard in Resources */,
+				2EAE4C111EF1328400694CCC /* HomePage.xib in Resources */,
+				2E70B5711EF2A2BD001FA6FD /* About.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +306,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EAE4BE31EF1323000694CCC /* ViewController.swift in Sources */,
+				2E70B5701EF2A2BD001FA6FD /* About.swift in Sources */,
+				2EAE4C161EF1434100694CCC /* SecondScreen.swift in Sources */,
+				2EAE4C1A1EF1482500694CCC /* Cell.swift in Sources */,
+				2E70B5761EF2E745001FA6FD /* Settings.swift in Sources */,
+				2EAE4C101EF1328400694CCC /* HomePage.swift in Sources */,
 				2EAE4BE11EF1323000694CCC /* AppDelegate.swift in Sources */,
+				2E6B8EA81EF7B92700A65C08 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +555,7 @@
 				2EAE4C071EF1323000694CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EAE4C081EF1323000694CCC /* Build configuration list for PBXNativeTarget "CubeKelltonTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +564,7 @@
 				2EAE4C0A1EF1323000694CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EAE4C0B1EF1323000694CCC /* Build configuration list for PBXNativeTarget "CubeKelltonUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +573,7 @@
 				2EAE4C0D1EF1323000694CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

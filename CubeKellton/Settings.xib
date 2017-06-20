@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Settings" customModule="CubeKellton" customModuleProvider="target">
+            <connections>
+                <outlet property="switch" destination="vGU-Bb-0IJ" id="eDc-fE-Nv2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="2wR-g0-GUp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Sound" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ay5-YP-PQh">
+                    <rect key="frame" x="70" y="230" width="103" height="38"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Oblique" family="Helvetica" pointSize="33"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qki-FR-Pd8">
+                    <rect key="frame" x="120" y="441" width="135" height="76"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="37"/>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="backs:" destination="-1" eventType="touchUpInside" id="vwj-MS-dgY"/>
+                    </connections>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGU-Bb-0IJ">
+                    <rect key="frame" x="256" y="230" width="51" height="38"/>
+                    <connections>
+                        <action selector="changeSound:" destination="-1" eventType="valueChanged" id="0gw-pp-Qqd"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vGU-Bb-0IJ" firstAttribute="height" secondItem="Ay5-YP-PQh" secondAttribute="height" id="8gB-fl-cJg"/>
+                <constraint firstAttribute="trailing" secondItem="vGU-Bb-0IJ" secondAttribute="trailing" constant="70" id="KXU-V8-Rqk"/>
+                <constraint firstItem="Ay5-YP-PQh" firstAttribute="top" secondItem="vGU-Bb-0IJ" secondAttribute="top" id="P4n-qJ-WK7"/>
+                <constraint firstItem="Ay5-YP-PQh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="230" id="Tmt-Xw-ma4"/>
+                <constraint firstItem="Ay5-YP-PQh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="70" id="c0Z-2c-wGZ"/>
+                <constraint firstItem="vGU-Bb-0IJ" firstAttribute="leading" secondItem="Ay5-YP-PQh" secondAttribute="trailing" constant="83" id="mUA-ft-dKN"/>
+            </constraints>
+            <point key="canvasLocation" x="183.5" y="-363.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image" width="320" height="568"/>
+    </resources>
+</document>
